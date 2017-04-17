@@ -1,0 +1,56 @@
+/*Style sheet for index.html, porfolio.html, and contact.html*/
+
+body {
+    color: #777777;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0 auto;
+    background-image: url(../images/grey_sandbag.png);
+
+}
+
+.header {
+    border-bottom: 5px solid #cccccc;
+    overflow: auto;
+}
+
+.container .navbar-brand {
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    padding: 20px;
+    line-height: 1.5;
+    height: 90px;
+    font-size: 30px;
+}
+
+.mainSection, .sidebar {
+    background: #ffffff;
+    border: 2px solid #dddddd;
+    overflow:auto;
+    padding:20px;
+    margin:20px;
+}
+
+.sidebar {
+    text-align:center;
+}
+
+h1, h2, h3 {
+    color: #4aaaa5;
+    border-bottom: 2px solid #dddddd;
+    font-family: "Georgia", Times, "Times New Roman", serif;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+
+#marissa {
+    width: 200px;
+    float: left;
+    margin: 0px 10px;
+}
+
+.social {
+    width: 50px;
+    margin: 0px 5px 0px 5px;
+}
+
