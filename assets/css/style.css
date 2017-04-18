@@ -20,7 +20,17 @@ body {
     padding: 20px;
     line-height: 1.5;
     height: 90px;
-    font-size: 30px;
+    font-size: 34px;
+    font-weight:bold;
+}
+
+.nav li{
+    padding: 40px 10px 0px 10px;
+}
+
+.container .navbar-brand:hover {
+    background: #4aaaa5;
+    color: #ffffff;
 }
 
 .mainSection, .sidebar {
@@ -43,6 +53,20 @@ h1, h2, h3 {
     padding-bottom: 10px;
 }
 
+h1{
+    font-size:24px;
+    font-weight:bold;
+}
+
+h2{
+    font-size:20px;
+    font-weight:bold;
+}
+
+h3{
+    font-size:20px;
+}
+
 #marissa {
     width: 200px;
     float: left;
@@ -54,3 +78,89 @@ h1, h2, h3 {
     margin: 0px 5px 0px 5px;
 }
 
+.social:hover {
+  border: 3px solid #cccccc;
+}
+
+footer .copy {
+    clear: both;
+    padding: 30px 0;
+    width: 100%;
+    background: #666666;
+    color: #ffffff;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    margin: 100px auto 0px auto;
+    width: 100%;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 20px 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  float:right;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.work:hover h3 {
+  font-size:24px;
+  font-weight:bold;
+  padding: 15px 2px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+}
