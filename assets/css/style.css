@@ -1,5 +1,7 @@
 /*Style sheet for index.html, porfolio.html, and contact.html*/
 
+
+/*Styles for index, portfolio, and contact*/
 body {
     color: #777777;
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
@@ -45,6 +47,8 @@ body {
     text-align:center;
 }
 
+
+
 h1, h2, h3 {
     color: #4aaaa5;
     border-bottom: 2px solid #dddddd;
@@ -67,11 +71,7 @@ h3{
     font-size:20px;
 }
 
-#marissa {
-    width: 200px;
-    float: left;
-    margin: 0px 10px;
-}
+
 
 .social {
     width: 50px;
@@ -81,6 +81,7 @@ h3{
 .social:hover {
   border: 3px solid #cccccc;
 }
+
 
 footer .copy {
     clear: both;
@@ -93,6 +94,27 @@ footer .copy {
     margin: 100px auto 0px auto;
     width: 100%;
 }
+
+/*Styles for Index Page*/
+
+#marissa {
+    width: 200px;
+    float: left;
+    margin: 0px 10px;
+}
+
+/*Fade in for index and contact page */
+.info, .connect, .contact {
+    animation-name:colorChange;
+    animation-duration:4s;
+}
+
+@keyframes colorChange {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+/*Styles for Portfolio Page*/
 
 .work {
   position: relative;
@@ -131,6 +153,31 @@ footer .copy {
   padding: 15px 2px;
 }
 
+.wrapper1 , .wrapper3, .wrapper5 {
+    animation-name: moveImageRight;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+}
+
+.wrapper2, .wrapper4 {
+    animation-name: moveImageLeft;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+}
+
+@keyframes moveImageLeft {
+    from {left:100%;}
+    to {left:0%;}
+}
+
+@keyframes moveImageRight {
+    from {right:100%;}
+    to {right:0%;}
+}
+
+
+/*Styles for Contact Page*/
+
 #contact-form li {
   margin-bottom: 10px;
 }
@@ -164,3 +211,4 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
